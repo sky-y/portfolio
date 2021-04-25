@@ -1,14 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+  author: "@skyy_writing",
+  siteTitle: "Yuki Fujiwara",
+  siteShortTitle: "Yuki Fujiwara", // Used as logo text in header, footer, and splash screen
+  siteDescription: "藤原由来（藤原惟）のポートフォリオです。",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
-  siteLanguage: "en_US",
-  siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  siteLanguage: "ja_JP",
+  siteIcon: "content/favicon.ico", // Relative to gatsby-config file
+  seoTitleSuffix: "Yuki Fujiwara", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
@@ -38,15 +37,17 @@ module.exports = {
     },
   },
   fonts: {
-    primary: "Roboto, Arial, sans-serif",
+    // primary: "Roboto, Arial, sans-serif",
+    primary:
+      "ヒラギノ明朝 Pro W3, Hiragino Mincho Pro, 游明朝, Yu Mincho, 游明朝体, YuMincho, ＭＳ Ｐ明朝, MS PMincho, serif",
   },
 
   //-- ARTICLES SECTION SETTINGS -----
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-  mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-  // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
+  // mediumRssFeed:
+  // "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+  // rssFeed: "https://note.com/sky_y/rss",
 
   shownArticles: 3,
 
@@ -55,31 +56,30 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      name: "note",
+      url: "https://note.com/sky_y",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "はてなブログ",
+      url: "https://p-zombie.hatenablog.com/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/sky-y/",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Twitter",
+      url: "https://twitter.com/skyy_writing",
     },
   ],
 
   //-- NAVIGATION SETTINGS -----
   navLinks: {
     menu: [
-      {
-        name: "Articles",
-        url: "/#articles",
-      },
+      // {
+      //   name: "Articles",
+      //   url: "/#articles",
+      // },
       {
         name: "About Me",
         url: "/#about",
