@@ -88,8 +88,8 @@ const Contact = ({ content }) => {
           <div className="details">
             <strong>{frontmatter.name}</strong>
             <br />
-            <a href={`mailto:${frontmatter.email}`}>
-              <Underlining highlight>{frontmatter.email}</Underlining>
+            <a href={`${frontmatter.url}`}>
+              Contact: <Underlining highlight>Google Forms</Underlining>
             </a>
           </div>
         </div>

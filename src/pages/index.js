@@ -168,7 +168,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
-            email
+            url
             profileImage {
               childImageSharp {
                 fluid(maxWidth: 400, quality: 90) {
