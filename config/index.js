@@ -6,7 +6,7 @@ module.exports = {
   siteDescription: "藤原由来（藤原惟）のポートフォリオです。",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "ja_JP",
-  siteIcon: "content/favicon.ico", // Relative to gatsby-config file
+  siteIcon: "content/sky-y_icon_web.jpg", // Relative to gatsby-config file
   seoTitleSuffix: "Yuki Fujiwara", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
