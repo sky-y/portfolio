@@ -139,6 +139,9 @@ const StyledProject = styled(motion.div)`
     @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
       margin-top: 0;
     }
+    & a {
+      text-decoration: underline;
+    }
     .category {
       font-size: 0.875rem;
       line-height: 1rem;
