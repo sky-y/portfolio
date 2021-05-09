@@ -47,7 +47,6 @@ module.exports = {
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
   // mediumRssFeed:
   // "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-  // rssFeed: "https://note.com/sky_y/rss",
 
   shownArticles: 3,
 
@@ -76,16 +75,12 @@ module.exports = {
   //-- NAVIGATION SETTINGS -----
   navLinks: {
     menu: [
-      // {
-      //   name: "Articles",
-      //   url: "/#articles",
-      // },
       {
         name: "About Me",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
     ],
@@ -94,14 +89,4 @@ module.exports = {
       url: "/#contact",
     },
   },
-  // footerLinks: [
-  //   {
-  //     name: "Privacy",
-  //     url: "/privacy",
-  //   },
-  //   {
-  //     name: "Imprint",
-  //     url: "/imprint",
-  //   },
-  // ],
 }
