@@ -55,20 +55,20 @@ module.exports = {
   // Medium, GitHub, LinkedIn, XING, Behance
   socialMedia: [
     {
-      name: "note",
-      url: "https://note.com/sky_y",
-    },
-    {
-      name: "はてなブログ",
-      url: "https://p-zombie.hatenablog.com/",
+      name: "Twitter",
+      url: "https://twitter.com/skyy_writing",
     },
     {
       name: "Github",
       url: "https://github.com/sky-y/",
     },
     {
-      name: "Twitter",
-      url: "https://twitter.com/skyy_writing",
+      name: "zenn",
+      url: "https://zenn.dev/sky_y",
+    },
+    {
+      name: "Qiita",
+      url: "https://qiita.com/sky_y",
     },
   ],
 
